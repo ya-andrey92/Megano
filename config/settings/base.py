@@ -30,7 +30,7 @@ POSTGRES_PASSWORD = env.str("POSTGRES_PASSWORD")
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-7ljcff0x1vz2$y)7byy!3!&ys1%f(wfu*zkwb)twdt%z1&ox(u"
+SECRET_KEY = env.str("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
